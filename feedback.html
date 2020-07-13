@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1><strong>WELCOME TO THE FEEDBACK FORM</strong></h1><br>
+    <form action="mailto:cool.dhruv225@gmail.com" method="POST" class="" enctype="multipart/form-data" >
+
+        <label for="names">Enter Your Name: </label>
+        <input type="text" id="names" name="names"><br><br>
+
+        <label for="age">Enter Your Age: </label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label>Gender: </label><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="male"><br>
+
+        <label for="male">Female</label>
+        <input type="radio" id="female" name="female"><br>
+
+        <label for="male">Other</label>
+        <input type="radio" id="other" name="other"><br><br><br>
+
+        <label>Enter your Rating (Out of 5) :</label>
+        <select id="stars" name="stars">
+            <option value="one">⭐</option>
+            <option value="two">⭐⭐</option>
+            <option value="three">⭐⭐⭐</option>
+            <option value="four">⭐⭐⭐⭐</option>
+            <option value="five">⭐⭐⭐⭐⭐</option>
+        </select>
+
+        <br><br><br><label>Enter any other valuable message: </label>
+        <textarea name="message" rows="10" cols="30">Enter any message here........</textarea><br><br>
+
+        <button type="button" onclick="alert('Thank You For Visiting')">Click Me!!!</button><br><br>
+
+        <input type="button" onclick="alert('bye')" value="Click!!"><br> <br>   <!--This is an empty button since input is an empty tag-->
+
+        <input type="submit" value="Submit"> <br><br>                                         
+        
+        
+        <!--When we used value here the button would display value-->
+
+    </form>
+</body>
+</html>
